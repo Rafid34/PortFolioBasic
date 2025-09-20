@@ -1,157 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Portfolio</title>
 </head>
-
 <body>
-    <header>
-        <h1 style="text-align: center;">Ahnaf Aqif Bhuiyan Rafid</h1>
-        <h2 style="text-align: center;  font-style:italic;">Computer Science & Engineering Student</h2>
-    </header>
-<div style="text-align: center; margin: 10px 0; font-size: 18px;">
-    <a href="https://github.com/Rafid34" target="_blank" style="margin: 0 15px; text-decoration: none; color: rgb(98, 90, 90);">GitHub</a> |
-    <a href="https://linkedin.com/in/ahnaf-aqif-rafid-57578728a" target="_blank" style="margin: 0 15px; text-decoration: none; color: rgb(49, 84, 199);">LinkedIn</a> |
-    <a href="https://wa.me/8801866550873" target="_blank" style="margin: 0 15px; text-decoration: none; color: rgb(0, 222, 0);">WhatsApp</a> |
-    <a href="https://x.com/AhnafR55126?s=09" target="_blank" style="margin: 0 15px; text-decoration: none; color: rgb(32, 12, 12);">X</a> |
-    <a href="https://facebook.com/ahnaf.rafid.56" target="_blank" style="margin: 0 15px; text-decoration: none; color: rgb(5, 5, 186);">Facebook</a> |
-    <a href="https://discord.com/users/paulo_coelho7" target="_blank" style="margin: 0 15px; text-decoration: none; color: rgb(96, 70, 201);">Discord</a> |
-    <a href="https://t.me/yourusername" target="_blank" style="margin: 0 15px; text-decoration: none; color: rgb(7, 125, 188);">Telegram</a>
-</div>
-    <table border="2" width="70%" style="margin: auto; text-align: center;">
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="/">Ahnaf Aqif Bhuiyan Rafid</a>
+    </div>
 
-        <thead>
-            <tr>
-                <th  colspan="3" style="text-align: center;">🚀 Skills & Expertise</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>
+    <div class="right">
+      <a href="https://github.com/Rafid34" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+      
+      <a href="https://www.linkedin.com/in/ahnaf-aqif-rafid-57578728a/" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+      
+      <a href="mailto:ahnafrafid2@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
 
-                    Programming Languages
-                    <ul>
-                        <li>C</li>
-                        <li>C++</li>
-                        <li>Python</li>
-                        <li>Java</li>
-                    </ul>
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi, I'm Ahnaf 👋</h2>
+        <p>I am a motivated and adaptable individual who enjoys taking on new challenges and learning from every experience. I value clear communication, teamwork, and a positive mindset, which help me connect with people and work effectively in different environments. I am naturally curious and open-minded, always eager to explore new ideas and grow both personally and professionally. With a strong sense of responsibility and dedication, I strive to bring consistency, creativity, and enthusiasm to everything I do.</p>
 
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          
+          <a href="#testimony">
+            <i class="fa-solid fa-pen"></i>
+            <span>Testimony</span>
+          </a>
+          
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
 
-                </td>
-                <td>
+      <div class="headshot">
+        <img src="images/hero-headshot.jpg" alt="Ahnaf photo">
+      </div>
+    </section>
 
-                    Tools & Platforms
-                    <ul>
-                        <li>Vs Code</li>
-                        <li>PyCharm</li>
-                        <li>Git & Github</li>
-                        <li>Jetbins Ide</li>
-                    </ul>
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text">
+        I have skills in C, C++, Python,Html and beginner-level Java, with experience using Git and GitHub for development.
+      </div>
 
+      <div class="cells">
+        <div class="cell">
+          <img src="images/html-logo.webp" alt="html logo">
+          <span>HTML</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/C-logo.jpg" alt="c logo">
+          <span>C</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/cpp-logo.webp" alt="C++ logo">
+          <span>C++</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/python-logo.webp" alt="python logo">
+          <span>Python</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/java-logo.webp" alt="java logo">
+          <span>Java</span>
+        </div>
+      </div>
+    </section>
 
-                </td>
-                <td>
+    <!-- SECTION 3: Testimony -->
+    <section id="testimony" class="testimony-section">
+      <h2>Testimony</h2>
 
-                    Areas of Interest
-                    <ul>
+      <div class="group">
+        <div class="person-details">
+          <img src="images/hasinaa.avif">
+          <p>Hasinaaa</p>
+          <p>Mother of humanity.</p>
+        </div>
 
-                        <li>Artificial Intelligence</li>
-                        <li>Machine Learning</li>
-                        <li>Data Science</li>
-                        <li>Software Development</li>
-                        <li>Problem Solving</li>
-                    </ul>
+        <div class="text">
+          "Ahnaf is a reliable and dedicated individual who consistently delivers quality work with a positive attitude. A quick learner and natural problem solver, he adapts to new challenges with ease and maintains clear, professional communication. His strong work ethic and collaborative spirit make him a valuable asset to any team or project. At last remember - Shojon harano bedonaa"
+        </div>
+      </div>
+    </section>
 
+    <!-- SECTION 4: Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
 
-                </td>
-            </tr>
+      <div class="group">
+        <div class="text">
+       You can easily reach me for any inquiries, collaborations, or opportunities. I’m available through email and social platforms to respond promptly and stay connected. Feel free to drop a message anytime—I’ll be happy to assist or discuss your ideas.
+        </div>
 
-        </tbody>
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name">
 
-    </table>
-    <br>
-    <table border="2" width="70%" style="margin: auto; text-align: center;">
-        <thead>
-            <tr>
-                <th>💻Experience & Projects </th>
-            </tr>
-        </thead>
-        <tr>
-            <td>
-                Laundry Hobe – Laundry Service Management System<br>
-                    - Developed a management system for hall students to track washing & ironing services efficiently. <a href="https://github.com/Rafid34/Laundry-Hobe";">Link</a>
-            </td>
-        </tr>
-        <tr>
-            <td>AI Buddy for Kids<br>
-                -Working on a backend prototype for an interactive AI learning assistant for children. <a href="https://github.com/Rafid34/Laundry-Hobe";">Link</a></td>
-        </tr>
-        <tr>
-            <td>Codeforces Practice<br>
-                -Solving 1000-rated competitive programming problems to strengthen problem-solving skills.<a href="https://codeforces.com/profile/Paulo_Coelho";">Link</a>
-        </tr></td>
+          <label for="email">Email</label>
+          <input type="email" id="email">
 
-    </table>
-        <br>
-    <table border="2" width="70%" style="margin: auto; text-align: center;">
-        <thead>
-            <tr>
-                <th>🎓 Education </th>
-            </tr>
-        </thead>
-        <tr>
-            <td>
+          <label for="message">Message</label>
+          <textarea id="message" cols="30" rows="10"></textarea>
 
-                <ul>
-                    <li> Bachelor of Science in Computer Science and Engineering<br>
-                        -International Islamic University Chittagong (IIUC)</li>
-                    <li>Expected Graduation: Spring 2028</li>
-                    <li>Current Semester: 3rd Semester</li>
-                    <li>Current CGPA: 3.833</li>
-                    <li>2nd Semester GPA: 3.822</li>
-                    <li>1st Semester GPA: 3.847</li>
-                    <li>Relevant Courses:
-                        Data Structures & Algorithms, Object-Oriented Programming, Competitive Programming 1</li>
-                </ul>
-            </td>
-        </tr>
-
-    </table>
-    <br>
-    <table border="2" width="70%" style="margin: auto; text-align: center;">
-        <thead>
-            <tr>
-                <th>🌟 Extracurricular & Involvement </th>
-            </tr>
-        </thead>
-        <tr>
-            <td>
-
-                <ul>
-                    <li> AI & ML Learning: Active learner in Artificial Intelligence and Machine Learning fields.</li>
-                    <li>Open Source Contributions: Exploring open-source contributions via GitHub.</li>
-                    <li>Research Interest: Keen interest in academic societies and research groups to enhance professional growth.</li>
-                    <li>Technical Workshops: Participated in multiple technical workshops for skill development and exploration.</li>
-                    <li>IEEE CS IIUC SB Member: Active member of IEEE Computer Society IIUC Student Branch, collaborating with peers and engaging in technical events.</li>
-                </ul>
-            </td>
-        </tr>
-
-    </table>
-   <h3 style="text-align: center;">About Me</h3>
-
-<div style="width: 70%; margin: auto; font-size: large; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif; text-align:start;">
-    I am a motivated and adaptable individual who enjoys taking on new challenges and learning from every experience. 
-    I value clear communication, teamwork, and a positive mindset, which help me connect with people and work effectively 
-    in different environments. I am naturally curious and open-minded, always eager to explore new ideas and grow both 
-    personally and professionally. With a strong sense of responsibility and dedication, I strive to bring consistency, 
-    creativity, and enthusiasm to everything I do.
-</div>
-
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
 </body>
-
 </html>
